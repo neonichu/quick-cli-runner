@@ -1,0 +1,7 @@
+platform :osx, '10.10'
+use_frameworks!
+
+plugin 'cocoapods-rome'
+
+pod 'Quick', :head
+pod 'Nimble', :head
