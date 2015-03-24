@@ -19,8 +19,7 @@ Note: this needs Xcode 6.3
 Build the necessary frameworks when using this for the first time:
 
 ```shell
-$ cd vendor
-$ pod install --no-integrate
+$ pod install --no-integrate --project-directory=vendor
 ```
 
 Running the tests from the Quick [README][3] looks like this:
